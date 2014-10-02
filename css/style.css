@@ -1,0 +1,47 @@
+.content1{
+	
+	margin-top: 530px;
+}
+
+.thumbnail-box{
+	
+}
+
+.thumbnail-box img{
+	width: 100%;
+	height: 100%;
+	margin-bottom: 25px;
+	border: 2px solid #b8b8b8;
+	border-radius: 5%;
+}
+
+.stats h3
+{
+	text-align: center;
+	font-size: 2em;
+}
+
+.testimonial h3{
+	font-size: 4em;
+	text-align: center;
+
+}
+
+.testimonial h4{
+	line-height: 4em;
+	display: inline-block;
+}
+.testimonial span{
+	font-size: 4em;
+	line-height: 
+}
+
+.testimonial img{
+	margin-top: -60px;
+}
+
+.border{
+	border-top: 1px solid #f15024;
+	padding-bottom: 50px;
+
+}
