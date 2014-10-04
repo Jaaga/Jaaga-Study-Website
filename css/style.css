@@ -2,9 +2,14 @@
 	
 	margin-top: 530px;
 }
+@media (min-width: 280px) and (max-width: 1024px) {
+		.content1{
+			margin-top:350px ;
+		}
+	}
 
 .thumbnail-box{
-	
+
 }
 
 .thumbnail-box img{
@@ -12,7 +17,7 @@
 	height: 100%;
 	margin-bottom: 25px;
 	border: 2px solid #b8b8b8;
-	border-radius: 5%;
+	
 }
 
 .stats h3
@@ -20,6 +25,13 @@
 	text-align: center;
 	font-size: 2em;
 }
+.stats li{
+	list-style: none;
+	font-size: 1.5em;
+	line-height: 1.7em;
+	letter-spacing: .20em;
+}
+
 
 .testimonial h3{
 	font-size: 4em;
@@ -28,7 +40,7 @@
 }
 
 .testimonial h4{
-	line-height: 4em;
+	line-height: 3em;
 	display: inline-block;
 }
 .testimonial span{
@@ -44,4 +56,13 @@
 	border-top: 1px solid #f15024;
 	padding-bottom: 50px;
 
+
+}
+
+.footer li{
+	list-style: none;
+	display: inline;
+	font-size: 1em;
+	padding-left: 10%;
+	margin-top: 50% ;
 }
