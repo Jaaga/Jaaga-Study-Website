@@ -1,16 +1,144 @@
-.content1{
-	
-	margin-top: 530px;
+
+/* Slider content begins */
+
+/* logo */
+.container > header h4 {
+	width: 240px;
+	padding: 10px 10px 10px 18px; 
+	background: white;
+	opacity: 0.7;
+	border-radius: 5px;
 }
-@media (min-width: 280px) and (max-width: 1024px) {
-		.content1{
-			margin-top:350px ;
-		}
-	}
+/* logo */
+
+
+
+/* Tagline- Live in Nature Learn to code#*/
+#tagline {
+	color: white;
+	padding: 0px 10px 10px 0px;
+	text-align: left; 
+	margin: -30px 0px 0px 201px;
+}
+/* Tagline- Live in Nature Learn to code#*/
+
+
+/* Slider content ends */
+
+/*Intro Box begins */
+
+
+.banner-text {
+	margin-top: 0%;
+	margin-left:45%;
+}
+
+.Intro_Box{
+font-size: 15px;
+color: rgba(255,255,255,1);
+  background: black;
+  background: linear-gradient(bottom, rgba(0,0,0,1), rgba(0,0,0,.6));
+  background: -webkit-linear-gradient(bottom, rgba(0,0,0,1), rgba(0,0,0,.6));
+  background: -moz-linear-gradient(bottom, rgba(0,0,0,1), rgba(0,0,0,.6));
+  line-height: 28px;
+  text-align: justify;
+  border-radius: 50%;
+
+  top: 0;
+  margin: 0px 30px 100px 30px;
+  height: 520px;
+  width: 520px;
+  padding: 80px;
+  padding-top: 100px;
+  transition: height .5s;
+  -webkit-transition: height .5s;
+  -moz-transition: height .5s;
+}
+
+/* responsive properties*/
+
+/*
+@media(max-width: 800px)
+{
+.Intro_Box{
+margin-left: -100%;
+margin-bottom:-20%;
+background: black;
+  background: linear-gradient(bottom, rgba(0,0,0,1), rgba(0,0,0,.4));
+  background: -webkit-linear-gradient(bottom, rgba(0,0,0,1), rgba(0,0,0,.6));
+  background: -moz-linear-gradient(bottom, rgba(0,0,0,1), rgba(0,0,0,.4));
+font-size: 10px;
+border-radius:0%;
+padding: 15px;
+
+}
+}
+*/
+
+/*responsive properties*/
+
+
+/*Apply Button */ 
+
+/*
+button{
+	;
+}
+*/
+
+/*Apply Button */
+
+/*Intro Box ends */
+
+/*Main Info Content Begins */
+
+.content1{
+	  
+	width: 100%;
+	height: 100%;
+
+}
+
+.more_info {
+	margin-top: 4%;
+	border: solid #f15024 1px ;
+	border-radius: 10px;
+	width:80%;
+	height:80%;
+	
+	margin: 5% auto;
+
+}
+
+.more_info p {
+	font-size: 20px;
+	max-width: 100%;
+	min-width: 30%;
+	text-align: center;
+}
+.more_info h4{
+	font-size:30px;
+	text-align: center;
+}
+
+.white-background{
+	background-color: #ffffff;
+	padding-bottom: 2.5%;
+}
+
+
+/*Main Info Content ends */
+
+
+
+/* Student profile pictures + Some Stats begin */
+
+
 
 .thumbnail-box{
-
+	padding-top: 5%;
 }
+
 
 .thumbnail-box img{
 	width: 100%;
@@ -18,6 +146,10 @@
 	margin-bottom: 25px;
 	border: 2px solid #b8b8b8;
 	
+}
+
+.stats{
+	padding-top: 5%;
 }
 
 .stats h3
@@ -31,7 +163,15 @@
 	line-height: 1.7em;
 	letter-spacing: .20em;
 }
+/* Student profile pictures + Some Stats ends */
 
+/*Testimonials Begin*/
+
+.testimonial {
+	width:80%;
+	height: 80%;
+	margin: 0 auto;
+}
 
 .testimonial h3{
 	font-size: 4em;
@@ -45,18 +185,27 @@
 }
 .testimonial span{
 	font-size: 4em;
-	line-height: 
+	/* line-height: */ 
 }
 
 .testimonial img{
 	margin-top: -60px;
 }
 
+/*
 .border{
 	border-top: 1px solid #f15024;
 	padding-bottom: 50px;
+}
+*/
+
+/*Testimonials end*/
 
 
+
+
+.footer ol{
+	padding-top: 10%;
 }
 
 .footer li{
